@@ -1,4 +1,5 @@
 Test Cases: Remove Product from Cart
+
 Test Case 1: Launch Homepage
 Objective: Verify that the website's homepage loads successfully.
 Steps:
@@ -8,6 +9,7 @@ Steps:
 4.	Verify the page title is "Automation Exercise".
 Expected Result:
 The browser displays the homepage, and the title matches the expected value.
+
 Test Case 2: Add Products to Cart
 Objective: Add products to the shopping cart and verify the cart page.
 Steps:
@@ -18,6 +20,7 @@ Steps:
 5.	Verify the URL of the cart page is https://automationexercise.com/view_cart.
 Expected Result:
 The selected products are added to the cart successfully, and the cart page is displayed with the correct URL.
+
 Test Case 3: Remove Product from Cart
 Objective: Remove a product from the cart and verify that the cart updates correctly.
 Steps:
@@ -28,6 +31,7 @@ Steps:
 5.	Compare the initial and updated counts.
 Expected Result:
 The product is removed successfully, and the total number of items in the cart decreases by 1.
+
 Test Case 4: Tear Down
 Objective: Clean up resources after test execution.
 Steps:
